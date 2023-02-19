@@ -1,0 +1,4 @@
+In these challenges check for __destruct, __toString and __wake_up methods and additionally, look for operations on files that may be exploitable.
+
+The first step after dumping/obtaining the source code is to ctrl+shift+f to find the unserialize function. 
+From there just navigate in reverse to find the possible flow that brings there and which class has an exploitable method.

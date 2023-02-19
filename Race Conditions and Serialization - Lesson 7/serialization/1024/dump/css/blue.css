@@ -1,0 +1,79 @@
+
+    body {
+  font-family: "Roboto", sans-serif;
+  background: #FAF8EF;
+}
+
+h1 {
+  font-weight: 900;
+  color: #8360F5;
+  text-align: center;
+}
+
+a {
+  color: orange;
+}
+
+#tablegame {
+  padding-left: 50%;
+  margin-top: 16px;
+  margin-left: -200px
+
+}
+
+#movelist { 
+  overflow: hidden;
+  height: 400px;
+}
+
+.btn {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 20px;
+  color: white;
+  background: #8360F5;
+  border: none;
+  border-radius: 8px;
+  width: 192px;
+  height: 48px;
+  text-align: center;
+  margin-left: calc(50% - 96px);
+  margin-bottom: 10px;
+  transition: 0.2s;
+  outline: 0;
+}
+
+.btn:active {
+  background: #7250E4
+}
+
+.subtitle {
+  text-align: center;
+  color: #aaa;
+  font-size: 0.85rem;
+  margin-bottom: 32px;
+  margin-top: -16px
+}
+
+h3 {
+  text-align: center;
+  color: #C7C5AC;
+  font-size: 1.5rem;
+}
+
+.footer {
+  text-align: center;
+  color: #dad8c2;
+  font-size: 1rem;
+  margin: 48px
+}
+
+.footer a {
+  text-decoration: none;
+  color: #C7C5AC
+}
+
+.footer a:hover {
+  text-decoration: underline
+}
+  
